@@ -10,10 +10,11 @@ int main() {
     int i;
 
     i = 0;
-    while(i < 10) {
+    while(i <= 10) {
         s += i;
         i++;
     }
+    printf("A soma dos valores de 1 a 10 é %d\n", s);
 
     // TODO: corrija o código acima e use printf para
     // mostrar a soma de 1 a 10

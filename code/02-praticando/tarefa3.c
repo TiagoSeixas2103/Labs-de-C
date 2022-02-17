@@ -8,7 +8,7 @@
 
 #define PI 3.141592
 
-void print_trigo(int a) {
+void print_trigo(double a) {
     printf("seno: %lf, cosseno: %lf\n", sin(a), cos(a));
 }
 
@@ -17,8 +17,9 @@ int main() {
 
     printf("Digite um ângulo em graus: ");
     scanf("%d", &angle);
+    double new_angle = angle*PI/180;
 
-    print_trigo(angle);
+    print_trigo(new_angle);
 
     return 0;
 }

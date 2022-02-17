@@ -6,15 +6,17 @@
 #include <stdio.h>
 
 int main() {
-    int s = 0;
+    double s = 0.0;
     int i;
 
-    i = 1;
+    i = 0;
     while (i <= 10) {
-        s += i / 2;
+        s += i;
         i++;
     }
+    s = s/2;
 
+    printf("A metade da soma dos valores de 1 a 10 é %f\n", s);
     // TODO: corrija o código acima e use printf para
     // mostrar a metade da soma de 1 a 10
 

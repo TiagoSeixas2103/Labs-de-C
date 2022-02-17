@@ -7,7 +7,13 @@
 
 // TODO: declare função modulo aqui. Veja abaixo como ela será usada
 
-
+int modulo(int valor) {
+    if (valor >= 0) {
+        return valor;
+    } else {
+        return -valor;
+    }
+}
 
 
 

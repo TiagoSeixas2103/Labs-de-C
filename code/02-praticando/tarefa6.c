@@ -6,7 +6,11 @@
 #include <stdio.h>
 
 // TODO implemente seu programa aqui
+
+
+
 int main() {
+
 
     return 0;
 }
