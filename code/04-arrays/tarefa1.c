@@ -11,8 +11,13 @@ int main(int argc, char *argv[]) {
     /* TODO: conserte o código abaixo */
 	long vetor[5];
 	int i;
+	int g;
+
+	for(g = 0; g < 5; g++) {
+		scanf("%ld", &vetor[g]);
+		}
 	
-	for(i = 0; i <= 5; i++) {
+	for(i = 0; i < 5; i++) {
 		if (vetor[i] % 2 == 0) {
 			printf("Par! ");
 		}
