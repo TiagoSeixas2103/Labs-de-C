@@ -1,0 +1,4 @@
+Digite um número: Digite um número: O primeiro não é múltiplo do segundo
+Digite um número: Digite um número: O primeiro não é múltiplo do segundo
+Digite um número: Digite um número: Error
+Digite um número: Digite um número: Error
