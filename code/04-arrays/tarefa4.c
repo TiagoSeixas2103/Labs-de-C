@@ -8,6 +8,20 @@
 
 /* TODO: implemente sua função conta_1 aqui */
 
+int conta_1(char arr[]) {
+    int contador = 0;
+    int i;
+
+    for (i=0; arr[i]; i++) {
+        if (arr[i] == '1') {
+            contador++;
+        }
+    }
+
+    return contador;
+
+}
+
 
 int main() {
     
