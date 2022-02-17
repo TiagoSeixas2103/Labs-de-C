@@ -13,6 +13,20 @@ typedef struct {
 
 // TODO: declare função manhattan aqui. Veja abaixo como ela será usada
 
+int modulo(int valor) {
+    if (valor >= 0) {
+        return valor;
+    } else {
+        return -valor;
+    }
+}
+
+int manhattan(ponto v1, ponto v2) {
+    int x = v2.x - v1.x;
+    int y = v2.y - v1.y;
+    return (modulo(x) + modulo(y));
+}
+
 int main() {
     
     // assertEquals é uma função do mutirão que confere
